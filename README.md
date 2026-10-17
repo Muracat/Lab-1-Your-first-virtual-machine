@@ -1,24 +1,24 @@
 # Lab 1 — Your first virtual machine
 
-Pair: <you> / <partner>   Driver first half: <name>
-Machine: <your laptop and OS>, guest Ubuntu Server <version>
-Date: <dd.mm.2026>
+Pair: Dinmukhamed / Amira
+Machine: OMEN by HP Laptop Arch Linux, guest Ubuntu Server 26.04.1
+Date: <17.10.2026>
 
 ## What I did
-1. Installed <hypervisor> <version>. Licence: <link>
-2. Created VM lab01-ubuntu: <n> vCPU, <n> GB RAM, 25 GB dynamic disk, NAT.
+1. Installed VirtualBox 7.2.20. Licence: https://www.virtualbox.org/wiki/GPLv3
+2. Created VM lab01-ubuntu: 4 vCPU, 2 GB RAM, 25 GB dynamic disk, NAT.
 3. Installed Ubuntu Server, took snapshot clean-install.
-4. Broke it: <the commands you ran>
-5. Rolled back to clean-install: <the commands that prove it is fixed>
+4. Broke it: sudo rm -rf /usr/bin
+5. Rolled back to clean-install
 
 ## Resource justification
-<One paragraph, against your host's real totals from Lab 0.>
+2GB and 4CPU it is comfortable for my pc (16CPU 16GB RAM)
 
 ## Result
 The VM boots; the break-and-rollback cycle is shown in the evidence below.
 
 ## What did not work the first time
-<At least one thing: what I saw, what it turned out to be, what I did.>
+Nothing
 
 ## Evidence
 - [evidence/vm-settings.png](evidence/vm-settings.png) — CPU, memory and disk as configured
